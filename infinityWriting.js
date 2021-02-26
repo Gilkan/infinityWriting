@@ -1,3 +1,4 @@
+import {activateKeyboardMapping} from './keyboardMapping.js';
 function infinityWriting(id, fullscreen=false, speed=5, charPerSpeed = 1, backgroundColor='black', fontColor='green'){
     
     let container = document.getElementById(id);
